@@ -1,26 +1,14 @@
 from flask import Flask, request
 
-import requests
+from pymessenger.bot import Bot
+
 
 app = Flask("hello")
 
-token = "1234567890"
+VERIFY_TOKEN = "1234567890"
+ACCESS_TOKEN = "EAALVdIQvwBcBAJMuUTf6a2Lojr6MqsGWaf5AmIt5jb63DgGmA6omnx8G92rGQ5eJlZCVGfTAHof0q4IsGH6VlRDtqhyX489IRnZBSN5IWCaatPu6ZCCtETE9Hp5DMggFInWW5Rlr1crpNVJc7HZCEbBIbj1Je5D08XF8z7JiAAZDZD"
 
-
-def bot(recipient, text):
-    url = r"https://graph.facebook.com/v6.0/me/messages?access_token=EAALVdIQvwBcBAJMuUTf6a2Lojr6MqsGWaf5AmIt5jb63DgGmA6omnx8G92rGQ5eJlZCVGfTAHof0q4IsGH6VlRDtqhyX489IRnZBSN5IWCaatPu6ZCCtETE9Hp5DMggFInWW5Rlr1crpNVJc7HZCEbBIbj1Je5D08XF8z7JiAAZDZD"
-
-    d1 = {
-        "recipient": {
-            "id": recipient
-        },
-        "message": {
-            "text": "bot says " + text
-        }
-    }
-
-    requests.post(url, json=d1)
-
+pybot= Bot(ACCESS_TOKEN)
 
 @app.route("/check/", methods=["GET"])
 def sayhi():
@@ -29,7 +17,7 @@ def sayhi():
 
 @app.route("/callback/", methods=["GET"])
 def get_callback():
-    if token == request.args.get("hub.verify_token"):
+    if VERIFY_TOKEN == request.args.get("hub.verify_token"):
         return request.args.get("hub.challenge")
     else:
         return "not working"
@@ -51,7 +39,8 @@ def post_callback():
                     text = messaging.get("message").get("text")
 
                 print(sender, recipient, text)
-                bot(sender, text)
+
+                pybot.send_text_message(sender, text)
 
     return "done"
 
