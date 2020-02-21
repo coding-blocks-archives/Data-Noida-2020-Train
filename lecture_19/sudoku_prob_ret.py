@@ -1,22 +1,24 @@
 import numpy as np
 
+
 def sudoku(board, row=0, col=0):
     if row == 9:
-        print(board)
-        return
+        return [board.copy()]
 
     if col == 9:
-        sudoku(board, row + 1, 0)
-        return
+        return sudoku(board, row + 1, 0)
 
     if board[row, col] != 0:
-        sudoku(board, row, col + 1)
+        return sudoku(board, row, col + 1)
     else:
+        acc = []
         for item in range(1, 10):
             if isSafe(board, row, col, item):
                 board[row, col] = item
-                sudoku(board, row, col + 1)
+                acc.extend(sudoku(board, row, col + 1))
                 board[row, col] = 0
+
+        return acc
 
 
 def isSafe(board, row, col, item):
@@ -36,7 +38,7 @@ def isSafe(board, row, col, item):
     return True
 
 
-grid = [[3, 0, 6, 5, 0, 8, 4, 0, 0],
+grid = [[0, 0, 0, 0, 0, 8, 4, 0, 0],
         [5, 2, 0, 0, 0, 0, 0, 0, 0],
         [0, 8, 7, 0, 0, 0, 0, 3, 1],
         [0, 0, 3, 0, 1, 0, 0, 8, 0],
@@ -47,4 +49,5 @@ grid = [[3, 0, 6, 5, 0, 8, 4, 0, 0],
         [0, 0, 5, 2, 0, 6, 3, 0, 0]]
 
 arr = np.array(grid)
-sudoku(arr)
+answers = sudoku(arr)
+print(answers)
