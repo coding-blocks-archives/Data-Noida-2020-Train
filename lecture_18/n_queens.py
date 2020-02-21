@@ -13,9 +13,7 @@ def queens(board, row, n):
 
 def is_safe(board, row, col, n):
 
-    max_steps = max(row, col)
-
-    for step in range(1, max_steps + 1):
+    for step in range(1, row + 1):
 
         # if we can go up
         if row - step >= 0:
