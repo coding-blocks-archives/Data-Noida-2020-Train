@@ -1,6 +1,5 @@
 import numpy as np
 
-
 def sudoku(board, row=0, col=0):
     if row == 9:
         return [board.copy()]

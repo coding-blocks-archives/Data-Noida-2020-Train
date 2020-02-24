@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56e553ab-73b0-4d77-bada-5941b179c6f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/merge_sorting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sudoku_prob_ret.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudoku_prob.py" beforeDir="false" afterPath="$PROJECT_DIR$/sudoku_prob.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudoku_prob_ret.py" beforeDir="false" afterPath="$PROJECT_DIR$/sudoku_prob_ret.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +15,10 @@
     <session id="2122410358">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -44,20 +44,20 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sudoku_prob_ret.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            <state relative-caret-position="24">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/merge_sorting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="168">
               <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
               <folding>
                 <marker date="1582269720912" expanded="true" signature="22:27" ph="..." />
@@ -84,8 +84,8 @@
       <list>
         <option value="$PROJECT_DIR$/worl.py" />
         <option value="$PROJECT_DIR$/sudoku_prob.py" />
-        <option value="$PROJECT_DIR$/sudoku_prob_ret.py" />
         <option value="$PROJECT_DIR$/merge_sorting.py" />
+        <option value="$PROJECT_DIR$/sudoku_prob_ret.py" />
       </list>
     </option>
   </component>
@@ -130,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.merge_sorting">
+  <component name="RunManager" selected="Python.sudoku_prob_ret">
     <configuration name="merge_sorting" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lecture_19" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -223,8 +223,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.merge_sorting" />
         <item itemvalue="Python.sudoku_prob_ret" />
+        <item itemvalue="Python.merge_sorting" />
         <item itemvalue="Python.worl" />
         <item itemvalue="Python.sudoku_prob" />
       </list>
@@ -247,20 +247,20 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5421687" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5421687" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -281,23 +281,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <marker date="1582267076855" expanded="true" signature="52:57" ph="..." />
-            <marker date="1582267076855" expanded="true" signature="536:756" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sudoku_prob_ret.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/merge_sorting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="168">
           <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
           <folding>
             <marker date="1582269720912" expanded="true" signature="22:27" ph="..." />
