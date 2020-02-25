@@ -4,6 +4,7 @@ class Node:
         self.value = value
         self.left = left
         self.right = right
+        self.height = 1
 
 
 class BST:
@@ -24,7 +25,17 @@ class BST:
             if node.value < value:
                 node.right = self.__add(value, node.right)
 
+            node.height = max(BST.height(node.left), BST.height(node.right)) + 1
+
         return node
+
+    @staticmethod
+    def height(node):
+
+        if node == None:
+            return 0
+        else:
+            return node.height
 
 
     def display(self):
@@ -36,7 +47,7 @@ class BST:
         if node == None:
             return
 
-        print(indent, node.value, position)
+        print(indent, node.value, position, node.height)
         self.__display(node.left, indent+"\t", "left")
         self.__display(node.right, indent+"\t", "right")
 

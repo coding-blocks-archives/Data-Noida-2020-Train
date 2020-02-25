@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="363b9eff-85cd-4e07-aadc-c482f2f97011" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../lecture_21/.idea/lecture_21.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lecture_21/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lecture_21/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lecture_21/BST.py" afterDir="false" />
-    </list>
+    <list default="true" id="363b9eff-85cd-4e07-aadc-c482f2f97011" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +12,7 @@
     <session id="1013117873">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -48,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BST.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="54" selection-end-column="56" />
+            <state relative-caret-position="78">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -192,8 +188,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BST.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="54" selection-end-column="56" />
+        <state relative-caret-position="78">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
         </state>
       </provider>
     </entry>
