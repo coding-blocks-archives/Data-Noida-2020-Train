@@ -68,6 +68,47 @@ class Graph:
 
         return components
 
+    def is_bipartite(self, source=None):
+
+        queue = list()
+        visited = set()
+
+        red = set()
+        green = set()
+
+        for vertex in self.vertices:
+
+            if vertex not in visited:
+
+                queue.append(vertex)
+                visited.add(vertex)
+
+                # special focus here. We added first item as red
+                red.add(vertex)
+
+                while len(queue) > 0:
+                    vertex = queue.pop(0)
+
+                    for neighbour in vertex.neighbours:
+
+                        # not visited items are to be divided
+                        if neighbour not in visited:
+                            if vertex in red:
+                                green.add(neighbour)
+                            if vertex in green:
+                                red.add(neighbour)
+
+                            visited.add(neighbour)
+                            queue.append(neighbour)
+                        # visited items are to be verified
+                        else:
+                            if vertex in red and neighbour in red:
+                                return False
+                            if vertex in green and neighbour in green:
+                                return False
+
+        return True
+
 
 if __name__ == "__main__":
 
@@ -79,8 +120,11 @@ if __name__ == "__main__":
     graph.add_vertex(5)
 
     graph.add_edge(1, 2)
-    graph.add_edge(1, 5)
-
     graph.add_edge(4, 3)
 
-    print(graph.connected_components())
+    print(graph.is_bipartite())
+
+    graph.add_edge(1, 5)
+    graph.add_edge(2, 5)
+
+    print(graph.is_bipartite())
