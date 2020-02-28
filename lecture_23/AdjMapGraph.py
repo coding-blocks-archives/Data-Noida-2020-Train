@@ -22,13 +22,13 @@ class Graph:
         else:
             print(value, "already exist")
 
-    def add_edge(self, source, target):
+    def add_edge(self, source, target, weight=1):
         source_v = self.find(source)
         target_v = self.find(target)
 
         if source_v and target_v:
-            source_v.neighbours[target_v] = 1
-            target_v.neighbours[source_v] = 1
+            source_v.neighbours[target_v] = weight
+            target_v.neighbours[source_v] = weight
         else:
             print("Some of", source, target, "are missing")
 
@@ -46,7 +46,7 @@ if __name__ == "__main__":
     graph.add_vertex("D")
     graph.add_vertex("E")
 
-    graph.add_edge("A", "B")
+    graph.add_edge("A", "B", 5)
     graph.add_edge("D", "C")
 
     graph.display()
