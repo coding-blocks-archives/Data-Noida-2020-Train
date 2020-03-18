@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="363b9eff-85cd-4e07-aadc-c482f2f97011" name="Default Changelist" comment="" />
+    <list default="true" id="f4dee52f-4927-4afe-915e-ae3a2d24593d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdjGraph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecture_08/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lecture_08/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,12 +13,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1013117873">
+    <session id="57656044">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -29,23 +34,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="670" />
+          <entry key="dummy" value="1" />
+          <entry key="py" value="1248" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="670" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="1248" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BST.py">
+        <entry file="file://$PROJECT_DIR$/AdjGraph.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="-247">
+              <caret line="55" column="25" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="25" />
+              <folding>
+                <marker date="1582791850334" expanded="true" signature="13:160" ph="..." />
+                <marker date="1582791850334" expanded="true" signature="172:174" ph="..." />
+                <marker date="1582791850334" expanded="true" signature="172:178" ph="..." />
+                <marker date="1582791850334" expanded="true" signature="252:383" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,7 +78,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BST.py" />
+        <option value="$PROJECT_DIR$/AdjGrapgh.py" />
+        <option value="$PROJECT_DIR$/AdjGraph.py" />
       </list>
     </option>
   </component>
@@ -81,18 +95,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="lecture_20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lecture_20" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture_22" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lecture_22" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -108,8 +122,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="BST" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lecture_20" />
+    <configuration name="AdjGraph" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lecture_22" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -120,7 +134,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BST.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AdjGraph.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +145,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.BST" />
+        <item itemvalue="Python.AdjGraph" />
       </list>
     </recent_temporary>
   </component>
@@ -140,11 +154,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="363b9eff-85cd-4e07-aadc-c482f2f97011" name="Default Changelist" comment="" />
-      <created>1582525363847</created>
+      <changelist id="f4dee52f-4927-4afe-915e-ae3a2d24593d" name="Default Changelist" comment="" />
+      <created>1582785361626</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1582525363847</updated>
+      <updated>1582785361626</updated>
     </task>
     <servers />
   </component>
@@ -152,20 +166,20 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32980973" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32830188" />
-      <window_info anchor="bottom" id="Python Console" weight="0.32830188" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32830188" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6509434" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5018868" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48192772" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -174,22 +188,17 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BST.py</url>
-          <line>107</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BST.py">
+    <entry file="file://$PROJECT_DIR$/AdjGraph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="-247">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="25" />
+          <folding>
+            <marker date="1582791850334" expanded="true" signature="13:160" ph="..." />
+            <marker date="1582791850334" expanded="true" signature="172:174" ph="..." />
+            <marker date="1582791850334" expanded="true" signature="172:178" ph="..." />
+            <marker date="1582791850334" expanded="true" signature="252:383" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
