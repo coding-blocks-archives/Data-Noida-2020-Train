@@ -2,7 +2,7 @@ import cv2
 import time
 
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture("face.mp4")
 
 classifier = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
@@ -17,7 +17,7 @@ while True:
         for face in faces:
             x, y, w, h = face
 
-            cv2.rectangle(image, (x, y), (x+w, y+h), (0, 255, 0), 10)
+            cv2.rectangle(img=image, pt1=(x, y), pt2=(x+w, y+h), color=(0, 255, 0), thickness=10)
 
         cv2.imshow("whole", image)
 
